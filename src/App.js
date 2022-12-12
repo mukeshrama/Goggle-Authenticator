@@ -16,7 +16,6 @@ function App() {
   {
       var userobject=jwt_decode(response.credential);
       setUser(userobject);
-      setLogout(false);
   }
 
    useEffect(()=>{
